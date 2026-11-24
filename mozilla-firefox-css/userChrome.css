@@ -1,8 +1,16 @@
-@import "firefox-gnome-theme/userChrome.css";
-
 .tab-group-label {
   height: 80% !important;
   display: inline-flex !important;
   align-items: center !important;
+}
+
+/* Force the actual dropdown list container to be 100% solid */
+.urlbarView {
+  background-color: var(--gnome-menu-background) !important;
+}
+
+/* Add spacing between the last row and the bottom edge of the dropdown */
+.urlbarView-results {
+  padding: var(--gnome-menu-padding) !important;
 }
 
