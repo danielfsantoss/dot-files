@@ -1,0 +1,8 @@
+@import "firefox-gnome-theme/userChrome.css";
+
+.tab-group-label {
+  height: 80% !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
